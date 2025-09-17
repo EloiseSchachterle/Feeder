@@ -5,7 +5,7 @@ public class Main
         Feeder f = new Feeder(500);
         System.out.println(f);
         System.out.println(f.getCurrentFood());
-        System.out.println((int) (Math.random() * 40) + 11);
-        System.out.println(Math.random() < 0.05);
+        f.simulateOneDay(22);
+        System.out.println(f.getCurrentFood());
     }
 }
